@@ -12,7 +12,7 @@ const LoginScreen = () => {
     e.preventDefault(); //browser refresh handler
     console.log(email, password);
     if(email === "cutu@g.com" && password === "cutuu")
-      {navigate("/home");}
+      {navigate("/");}
     else{
       alert("Wrong credentials");
     }

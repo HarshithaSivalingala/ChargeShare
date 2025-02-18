@@ -1,6 +1,6 @@
 import React from "react";
 const HomeScreen = () => {
-    const str=":)";
+    const str = ":)";
     return (
 
         <div>
