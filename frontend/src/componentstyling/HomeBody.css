@@ -13,14 +13,23 @@
     padding: 20px;
   }
   
-  .right-side {
+ /* Right Side with Centered Map */
+.right-side {
     width: 50%;
-    background-color: rgb(55, 54, 77); /* Slightly different background */
-    padding: 20px;
+    background-color: rgb(55, 54, 77);
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
-  }
+}
+
+/* Map Styling - Centered in Right Side */
+.map-container {
+    width: 700px; /* Square Shape */
+    height: 600px;
+    border-radius: 20px; /* Curved Borders */
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
   
   .search-container {
     display: flex;
