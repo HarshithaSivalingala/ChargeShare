@@ -1,0 +1,148 @@
+
+.body-container {
+    display: flex;
+    height: calc(100vh - 60px); /* Adjust based on the height of the header */
+  }
+  
+  .left-side {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(55, 54, 77); /* Light background */
+    padding: 20px;
+  }
+  
+  .right-side {
+    width: 50%;
+    background-color: rgb(55, 54, 77); /* Slightly different background */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.7); /* Opaque effect */
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search-bar {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    background-color: transparent;
+    font-size: 16px;
+  }
+  
+  .search-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(0, 180, 174); /* Green button */
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .search-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+
+  .filters-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.filter-box {
+    display: flex;
+    align-items: center;
+    background: #f1f1f1;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.see-prices-button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.see-prices-button:hover {
+    background-color: #333;
+}
+
+.login-message {
+    margin-top: 10px;
+    font-size: 14px;
+    color: gray;
+    text-align: center;
+}
+
+.filters-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.filters-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.filter-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f1f1f1;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    width: 120px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.see-prices-button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: bold;
+    width: 140px;
+}
+
+.see-prices-button:hover {
+    background-color: #333;
+}
+
+.login-message {
+    margin-top: 10px;
+    font-size: 14px;
+    color: gray;
+    text-align: center;
+}

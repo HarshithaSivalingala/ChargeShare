@@ -1,0 +1,37 @@
+/* src/components/Header.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgb(62, 60, 89); /* Change the background color */
+    color: white;
+  }
+  
+  .header .title h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .header .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .header .menu ul li {
+    margin-left: 20px;
+  }
+  
+  .header .menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  
+  .header .menu ul li a:hover {
+    color: #ddd;
+  }
+  
