@@ -1,12 +1,19 @@
-/* src/components/Header.css */
+
+/* Header.css */
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: rgb(62, 60, 89); /* Change the background color */
-    color: white;
-  }
+  position: sticky;  /* Keeps it visible when scrolling */
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgb(55, 54, 77);
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000; /* Ensures it stays on top */
+}
+
   
   .header .title h1 {
     margin: 0;
@@ -35,3 +42,6 @@
     color: #ddd;
   }
   
+  .active-link {
+    border-bottom: 3px solid rgb(0, 180, 174);
+}

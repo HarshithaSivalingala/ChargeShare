@@ -24,7 +24,7 @@
 
 /* Map Styling - Centered in Right Side */
 .map-container {
-    width: 700px; /* Square Shape */
+    width: 600px; /* Square Shape */
     height: 600px;
     border-radius: 20px; /* Curved Borders */
     overflow: hidden;

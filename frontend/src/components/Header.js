@@ -1,23 +1,24 @@
 import React from "react";
-import "../componentstyling/Header.css";
+import { NavLink } from "react-router-dom"; // Import NavLink instead of Link
+import "../screenstyling/HomeScreen/Header.css"; // Adjust the path as necessary
 
 const Header = () => {
     return (
         <header className="header">
-            <div classname="title">
-            <h1>ChargeShare</h1>
+            <div className="title">
+                <h1>ChargeShare</h1>
             </div>
             <nav className="menu">
-        <ul>
-          <li><a href="/find-charger">Find Charger</a></li>
-          <li><a href="/about">About</a></li>
-          <li><a href="/help">Help</a></li>
-          <li><a href="/signup">Sign Up</a></li>
-          <li><a href="/login">Log In</a></li>
-        </ul>
-      </nav>
-    </header>
-
+                <ul>
+                    <li><NavLink to="/" className={({ isActive }) => isActive ? "active-link" : ""}>Find Charger</NavLink></li>
+                    <li><NavLink to="/about" className={({ isActive }) => isActive ? "active-link" : ""}>About</NavLink></li>
+                    <li><NavLink to="/help" className={({ isActive }) => isActive ? "active-link" : ""}>Help</NavLink></li>
+                    <li><NavLink to="/signup" className={({ isActive }) => isActive ? "active-link" : ""}>Sign Up</NavLink></li>
+                    <li><NavLink to="/login" className={({ isActive }) => isActive ? "active-link" : ""}>Log In</NavLink></li>
+                </ul>
+            </nav>
+        </header>
     );
 };
+
 export default Header;
