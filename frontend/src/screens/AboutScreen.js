@@ -27,7 +27,7 @@ const AboutScreen = () => {
                         </p>
                     </div>
                     <div className="image-content">
-                        <img src="/assets/ev-charging.png" alt="EV Charging" />
+                        <img src="/ev-charging.jpg" alt="EV Charging" />
                     </div>
                 </div>
             </section>
