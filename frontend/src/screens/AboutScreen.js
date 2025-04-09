@@ -31,8 +31,39 @@ const AboutScreen = () => {
                     </div>
                 </div>
             </section>
+
+            {/* Fixing a Charger at Home Section */}
+            <section className="fixing-charger-section">
+                <div className="fixing-content">
+                    <div className="image-content">
+                        <img src="/home-charger.jpg" alt="Home Charger" />
+                    </div>
+                    <div className="text-content">
+                        <h2>Fixing a Charger at Home</h2>
+                        <p>
+                            Install an EV charger at home for the ultimate convenience. Our platform connects you
+                            with certified professionals who can install and maintain your charging station.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            {/* Finding Charging Stations Nearby Section */}
+            <section className="finding-charger-section">
+                <div className="finding-content">
+                    <div className="text-content">
+                        <h2>Find Charging Stations Nearby</h2>
+                        <p>
+                            Locate the nearest EV charging stations effortlessly. Our interactive map and real-time
+                            availability updates ensure that you always find a charger when you need one.
+                        </p>
+                    </div>
+                    <div className="image-content">
+                        <img src="/nearby-chargers.jpg" alt="Nearby Chargers" />
+                    </div>
+                </div>
+            </section>
         </div>
     );
 };
-
 export default AboutScreen;
